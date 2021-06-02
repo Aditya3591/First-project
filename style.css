@@ -1,0 +1,65 @@
+*{
+    margin :0px;
+    padding:0px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(12.jpg);
+    background-size: cover;
+    background position: center;
+}
+.menu{
+    float: right;
+   
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+   padding: 40px 40px;
+ 
+
+  
+}
+ul li a{
+ 
+    text-decoration: solid;
+    color: aliceblue;
+    border: 1px solid transparent;  
+    padding: 5px 10px 5px 10px;
+    transition: 0.001s ease;
+ 
+
+}
+ul li  :hover
+{
+    background-color: aliceblue;
+    color:black;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left:25%;
+    right:25%;
+    text-align: center;
+}
+.title h1{
+    font-size: 45px;
+    color: white;
+    font-family: 'Proza Libre', sans-serif;
+}
+.button{
+    position: absolute;
+    top:60%;
+    left:43%;
+}
+.btn{
+    border:2px solid white;
+    padding:10px 20px 10px 20px;
+    color:white;
+     text-decoration: none;
+     transition: 0.5s ease;
+    border-radius: 25px;
+}
+.button :hover{
+    background-color: white;
+    color: black;
+}
